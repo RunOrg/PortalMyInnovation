@@ -1,0 +1,51 @@
+/* BLUE: #101f69 ; RED: #e2001a DEEP BLUE #081036; DEEP RED #b00014; */
+
+body.splash {
+  background-color: #333;
+  background: -moz-linear-gradient(top,#333 100px,#111);
+  background: -webkit-linear-gradient(top,#333 100px,#111);
+  font-family: "Arial", "Verdana", "Sans" ;
+  color: #FFF;
+  font-size: 16px;
+}
+
+#head {
+  border-bottom: 1px solid #111;
+  background-color: #101F69;
+  overflow: hidden;
+}
+
+#head .menu {
+  float: right;
+  margin: 40px 20px;
+  padding: 0 20px;
+  line-height: 40px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+#head .menu:hover {
+  background-color: #e2001a;
+}
+
+#logo {
+  float: left;
+  height: 120px;
+  width: 300px;
+  background: url("") left center no-repeat transparent; 
+}
+
+.center {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.overlaid {
+  padding: 10px 20px;
+  background-color: rgba(0,0,0,0.25);
+  position: absolute;
+}
+

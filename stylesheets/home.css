@@ -1,0 +1,57 @@
+h1, h2, h3, p, a {
+    font-family: 'bellotaregular';
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 28px;
+  text-align: center;
+  margin: 50px 0;
+  font-weight: normal;
+}
+body {
+  background-image: url(../images/textured_paper.png);
+}
+
+#page {
+  width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  background: url(../images/footer.png) no-repeat center top;
+  height: 400px;
+  padding-top: 136px;
+  margin-top: 136px;
+}
+footer p, 
+footer p a {
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+header {
+  position: relative;
+  height: 360px;
+}
+header nav {
+  position: absolute;
+  top: 20px;
+  margin: 0 auto;
+}
+header nav,
+header nav a {
+  font-size: 14px;
+  color: #00b7ac;
+}
+header nav ul {
+  width: 960px;
+  text-align: center;
+}
+header nav ul li {
+  display: inline;
+  margin-right: 14px;
+  margin-left: 10px;
+}
